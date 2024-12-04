@@ -48,7 +48,7 @@ if (F) {
   )
   prd_ER2_lowHERB_lowFire_hist <- st_join(ER_2, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -62,7 +62,7 @@ if (F) {
   )
   prd_ER2_lowHERB_lowFire_ssp5 <- st_join(ER_2, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -76,7 +76,7 @@ if (F) {
   )
   prd_ER2_highHERB_lowFire_ssp5 <- st_join(ER_2, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -90,7 +90,7 @@ if (F) {
   )
   prd_ER2_lowHERB_lowFire_hist <- st_join(ER_2, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -104,8 +104,8 @@ if (F) {
   )
   prd_ER2_highHERB_lowFire_hist <- st_join(ER_2, prd) %>%
     select(all_of(c("id", target_data_names)))
-
-
+  
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp2",
@@ -119,7 +119,7 @@ if (F) {
   )
   prd_ER2_lowHERB_lowFire_ssp2 <- st_join(ER_2, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp2",
@@ -133,7 +133,7 @@ if (F) {
   )
   prd_ER2_highHERB_lowFire_ssp2 <- st_join(ER_2, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   ### ER_3 ----
   prd <- custom_predict(
     clim_data_source = "NEX",
@@ -148,7 +148,7 @@ if (F) {
   )
   prd_ER3_lowHERB_lowFire_hist <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -162,7 +162,7 @@ if (F) {
   )
   prd_ER3_lowFire_ssp5 <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -176,7 +176,7 @@ if (F) {
   )
   prd_ER3_highFire_ssp5 <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -190,7 +190,7 @@ if (F) {
   )
   prd_ER3_prescribedFire_ssp5 <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -204,7 +204,7 @@ if (F) {
   )
   prd_ER3_lowFire_hist <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -218,7 +218,7 @@ if (F) {
   )
   prd_ER3_highFire_hist <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -232,7 +232,7 @@ if (F) {
   )
   prd_ER3_prescribedFire_hist <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp2",
@@ -246,7 +246,7 @@ if (F) {
   )
   prd_ER3_lowFire_ssp2 <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp2",
@@ -260,7 +260,7 @@ if (F) {
   )
   prd_ER3_highFire_ssp2 <- st_join(ER_3, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   ### ER_4 ----
   prd <- custom_predict(
     clim_data_source = "NEX",
@@ -275,7 +275,7 @@ if (F) {
   )
   prd_ER4_lowHERB_lowFire_hist <- st_join(ER_4, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -289,7 +289,7 @@ if (F) {
   )
   prd_ER4_lowbiomass_ssp5 <- st_join(ER_4, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -303,7 +303,7 @@ if (F) {
   )
   prd_ER4_highbiomass_ssp5 <- st_join(ER_4, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -317,7 +317,7 @@ if (F) {
   )
   prd_ER4_lowbiomass_hist <- st_join(ER_4, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -331,7 +331,7 @@ if (F) {
   )
   prd_ER4_highbiomass_hist <- st_join(ER_4, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp2",
@@ -345,7 +345,7 @@ if (F) {
   )
   prd_ER4_lowbiomass_ssp2 <- st_join(ER_4, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp2",
@@ -359,7 +359,7 @@ if (F) {
   )
   prd_ER4_highbiomass_ssp2 <- st_join(ER_4, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   ### ER_5 ----
   prd <- custom_predict(
     clim_data_source = "NEX",
@@ -374,7 +374,7 @@ if (F) {
   )
   prd_ER5_lowHERB_lowFire_hist <- st_join(ER_5, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -388,7 +388,7 @@ if (F) {
   )
   prd_ER5_lowFire_ssp5 <- st_join(ER_5, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -402,7 +402,7 @@ if (F) {
   )
   prd_ER5_highFire_ssp5 <- st_join(ER_5, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "ssp5",
@@ -416,8 +416,8 @@ if (F) {
   )
   prd_ER5_prescribedFire_ssp5 <- st_join(ER_5, prd) %>%
     select(all_of(c("id", target_data_names)))
-
-
+  
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -431,7 +431,7 @@ if (F) {
   )
   prd_ER5_lowFire_hist <- st_join(ER_5, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -445,7 +445,7 @@ if (F) {
   )
   prd_ER5_highFire_hist <- st_join(ER_5, prd) %>%
     select(all_of(c("id", target_data_names)))
-
+  
   prd <- custom_predict(
     clim_data_source = "NEX",
     clim_sce = "",
@@ -459,8 +459,8 @@ if (F) {
   )
   prd_ER5_prescribedFire_hist <- st_join(ER_5, prd) %>%
     select(all_of(c("id", target_data_names)))
-
-
+  
+  
   ### Save rds ----
   df_ER2 <- cbind(prd_ER2_highHERB_lowFire_ssp5, prd_ER2_lowHERB_lowFire_ssp5, prd_ER2_lowHERB_lowFire_hist, prd_ER2_highHERB_lowFire_hist) %>%
     st_drop_geometry() %>%
@@ -548,10 +548,9 @@ ggsave(str_c("ModelEvaluation/", "alternative_potentials_examples.svg"), p, widt
 # ER_5 "Cerrado"
 strs <- read_stars("Maps/prediction_maps/global_map_1Band_perCover_Mean.tif")
 er_ <- ER[ER$ECO_NAME %in% c("Northeast Siberian Taiga", "West Sudanian Savanna", "Dinaric Mountains Mixed Forests", "Cerrado"), "ECO_NAME"]
-er_ %<>% mutate(er = as.factor(ECO_NAME) %>% as.integer())
+er_ %<>% mutate(ECO_NAME = factor(ECO_NAME, levels = c("Northeast Siberian Taiga", "West Sudanian Savanna", "Dinaric Mountains Mixed Forests", "Cerrado")), er = ECO_NAME %>% as.integer())
 # plot(er_)
 strs_er <- er_ %>%
-  mutate(er = as.factor(ECO_NAME) %>% as.integer()) %>%
   select(-ECO_NAME) %>%
   st_rasterize(template = strs %>% slice("band", 1))
 # plot(strs_er)
@@ -561,12 +560,12 @@ strs %<>% merge()
 # strs%<>%merge()
 # strs2=c(strs%>%split(),strs_er)%>%merge()
 # strs2=c(strs,strs_er)%>%merge()
-eer <- 1
+eer <- 2
 plts <- map(1:4, function(eer) {
   print(eer)
-
+  
   strs2 <- strs
-
+  
   a <- strs2[, , , 4] == eer
   plta <- ggplot() +
     geom_stars(data = a, na.action = na.omit) +
@@ -576,7 +575,7 @@ plts <- map(1:4, function(eer) {
     labs(fill = er_ %>% filter(er == eer) %>% pull(ECO_NAME)) +
     scale_x_continuous(expand = c(0, 0)) +
     scale_y_continuous(expand = c(0, 0))
-
+  
   # b <- st_crop(strs2, er_ %>% filter(er == eer))
   b <- strs2[er_ %>% filter(er == eer)]
   b <- b[, , , 1:3]
@@ -594,7 +593,7 @@ plts <- map(1:4, function(eer) {
   #   labs(fill = "proportion") +
   #   scale_x_continuous(expand = c(0, 0)) +
   #   scale_y_continuous(expand = c(0, 0))
-
+  
   # ER_2 "Northeast Siberian Taiga"
   # ER_3 "West Sudanian Savanna"
   # ER_4 "Dinaric Mountains Mixed Forests"
@@ -602,32 +601,30 @@ plts <- map(1:4, function(eer) {
   if (eer == 1) {
     pff <- pivot_df_ER2
   }
-  if (eer == 3) {
+  if (eer == 2) {
     pff <- pivot_df_ER3
   }
-  if (eer == 2) {
+  if (eer == 3) {
     pff <- pivot_df_ER4
   }
   if (eer == 4) {
     pff <- pivot_df_ER5
   }
-
-  if (length(levels(pff$Scenario)) == 6) {
-    b <- c(b, b, along = "attributes")
-  }
-
+  
   pff %<>% pivot_wider(names_from = Scenario)
   print(summary(pff))
   pff %<>% inner_join(pts_var["id"]) %>%
     select(-id) %>%
     st_as_sf()
-
-  pff %<>% st_rasterize(template = b) %>% merge()
-  # plot(pff %>% slice("attributes", 1) - pff %>% slice("attributes", 3))
-  # plot(pff)
-
+  
+  st_bbox(b)
+  st_bbox(pff)
+  
+  pt <- pff %>%
+    st_rasterize(template = b %>% slice("attributes", 1)) %>%
+    merge()
   pltt <- ggplot() +
-    geom_stars(data = pff, na.action = na.omit) +
+    geom_stars(data = pt, na.action = na.omit) +
     scale_fill_viridis_c() + # limits = c(0, 1)) +
     facet_wrap(~attributes, ncol = 3) +
     coord_equal() +
@@ -636,16 +633,16 @@ plts <- map(1:4, function(eer) {
     labs(fill = ifelse(eer %in% c(1, 2), "tree", "short vegegation")) +
     scale_x_continuous(expand = c(0, 0)) +
     scale_y_continuous(expand = c(0, 0))
-
+  
   # plt = arrangeGrob(plta, pltb, pltt, ncol = 1)
   # plot(plt)
   plt <- arrangeGrob(plta, pltt, ncol = 1)
   # plot(plt)
-
+  
   ggsave(
     filename = str_c("ModelEvaluation/", str_c("alternative_potentials_examples_maps_", eer, ".svg")), plot = plt, width = 8, height = 8
   )
-
+  
   return(plt)
 })
 PLT <- do.call(grid.arrange, args = c(... = plts, ncol = 2))
@@ -655,7 +652,7 @@ ggsave(
 
 
 
-###### Climate domain ----
+###### Features domain ----
 ### pts and pts_var => together with ER ----
 ER <- read_sf("RawData\\tnc_terr_ecoregions.shp")
 pts_ER <- st_join(pts, ER) %>% mutate(source = "pts")
@@ -666,13 +663,12 @@ pts_together %<>% st_drop_geometry() %>% filter(!is.na(WWF_MHTNAM))
 
 ### variables selection ----
 ## 4 clim variables
-vars_ <- c("source", "WWF_MHTNAM", str_c("NEX.", clim_data_variables))
+# vars_ <- c("source", "WWF_MHTNAM", str_c("NEX.", clim_data_variables))
 ## more variables (minus 'cat')
 ## but biomass, litter, intake and burndate/firefreq can not be compared
 ## (as no data outside protected areas ==> scenarios)
-# vars_ <- c("source", "WWF_MHTNAM", str_c("NEX.", clim_data_variables), soilfire_data_names, herb_data_names, str_c("NEX.", clim_data_variables))
-# vars_ <- vars_[!vars_ %in% c("BurnDate", herb_data_names)]
-
+vars_ <- c("source", "WWF_MHTNAM", str_c("NEX.", clim_data_variables), soilfire_data_names, herb_data_names, str_c("NEX.", clim_data_variables))
+vars_ <- vars_[!vars_ %in% c("BurnDate", herb_data_names)]
 
 ### boxplot ----
 pts_together %<>% select(all_of(vars_))
