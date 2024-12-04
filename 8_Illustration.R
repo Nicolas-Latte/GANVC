@@ -630,7 +630,7 @@ plts <- map(1:4, function(eer) {
     coord_equal() +
     theme_void() +
     theme(legend.position = "top") +
-    labs(fill = ifelse(eer %in% c(1, 2), "tree", "short vegegation")) +
+    labs(fill = ifelse(eer %in% c(1, 2), "short vegegation", "tree")) +
     scale_x_continuous(expand = c(0, 0)) +
     scale_y_continuous(expand = c(0, 0))
   
