@@ -20,6 +20,6 @@ https://code.earthengine.google.com/6783ae7479ea02e8315f08ecf3a2038e
 See: 0_Herbivory.R
 
 ## Study R Scripts  
-The entire process, including data preparation, model training, validation and evaluation, and mapping, was performed using the other R scripts: from 1_MAIN.R to 8_Illustration.R. 
+The entire process, including data preparation, model training, validation and evaluation, and mapping, was performed using the R scripts from 1_MAIN.R to 8_Illustration.R. 
 The names of the scripts are self-explanatory. The main script is 1_MAIN.R, which calls the others.
 
