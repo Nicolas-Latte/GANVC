@@ -1,6 +1,6 @@
 # Global alternatives of natural vegetation cover (GANVC)
 
-This repository contains the raw data (download link and GEE scripts) and the annotated R scripts used in the study "Global alternatives of natural vegetation cover" (GANVC), submitted to Nature Communications (https://www.nature.com/ncomms/).
+This repository contains the raw data (download link and GEE scripts) and the annotated R scripts used in the study "Global alternatives of natural vegetation cover" (GANVC), accepted by Nature Communications (https://www.nature.com/ncomms/).
 
 ## Raw Data Access  
 The raw data can be downloaded from the following link:  
@@ -22,4 +22,8 @@ See: 0_Herbivory.R
 ## Study R Scripts  
 The entire process, including data preparation, model training, validation and evaluation, and mapping, was performed using the R scripts from 1_MAIN.R to 8_Illustration.R. 
 The names of the scripts are self-explanatory. The main script is 1_MAIN.R, which calls the others.
+
+## Final map
+The map can be downloaeded from the following link:
+https://dox.uliege.be/index.php/s/oy7RuZFbPOudRBL
 
