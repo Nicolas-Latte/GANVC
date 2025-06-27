@@ -24,6 +24,6 @@ The entire process, including data preparation, model training, validation and e
 The names of the scripts are self-explanatory. The main script is 1_MAIN.R, which calls the others.
 
 ## Final map
-The map can be downloaeded from the following link:
+The map can be downloaded from the following link:
 https://dox.uliege.be/index.php/s/oy7RuZFbPOudRBL
 
