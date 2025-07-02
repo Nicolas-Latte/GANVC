@@ -24,5 +24,5 @@ The entire process, including data preparation, model training, validation and e
 The names of the scripts are self-explanatory. The main script is 1_MAIN.R, which calls the others.
 
 ## Final maps: proportions and sensitiviy
-The maps corresponding to figs 1 and 2 of the article can be downloaded from the following link:
+The maps corresponding to figs 1 and 2 of the article can be downloaded from the following link:  
 https://dox.uliege.be/index.php/s/twsmd36R4OaNAPL
